@@ -16,6 +16,8 @@
 		690F40AC232E795900107379 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40AB232E795900107379 /* ChatVC.swift */; };
 		690F40AE232E796900107379 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40AD232E796900107379 /* ChannelVC.swift */; };
 		690F40B2232E90A400107379 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40B1232E90A400107379 /* GradientView.swift */; };
+		690F40B7232EC07B00107379 /* toLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40B6232EC07B00107379 /* toLogin.swift */; };
+		690F40B9232EC7D200107379 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40B8232EC7D200107379 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		690F40AB232E795900107379 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		690F40AD232E796900107379 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		690F40B1232E90A400107379 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		690F40B6232EC07B00107379 /* toLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toLogin.swift; sourceTree = "<group>"; };
+		690F40B8232EC7D200107379 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,6 @@
 		690F4085232E72DA00107379 = {
 			isa = PBXGroup;
 			children = (
-				690F40A9232E790000107379 /* Model */,
-				690F40AA232E790500107379 /* View */,
-				690F40A8232E78F900107379 /* Controller */,
-				690F40A3232E74BF00107379 /* Supporting Files */,
 				690F4090232E72DA00107379 /* smackApp */,
 				690F408F232E72DA00107379 /* Products */,
 				E6830BD8545ECFEE8C0EB527 /* Pods */,
@@ -73,6 +73,11 @@
 		690F4090232E72DA00107379 /* smackApp */ = {
 			isa = PBXGroup;
 			children = (
+				690F40B5232EC05A00107379 /* Utilities */,
+				690F40A9232E790000107379 /* Model */,
+				690F40AA232E790500107379 /* View */,
+				690F40A8232E78F900107379 /* Controller */,
+				690F40A3232E74BF00107379 /* Supporting Files */,
 				690F4091232E72DA00107379 /* AppDelegate.swift */,
 				690F4095232E72DA00107379 /* Main.storyboard */,
 				690F4098232E72DC00107379 /* Assets.xcassets */,
@@ -89,7 +94,8 @@
 				690F40A6232E74D600107379 /* SWRevealViewController.m */,
 				690F40A4232E74D500107379 /* smackApp-Bridging-Header.h */,
 			);
-			path = "Supporting Files";
+			name = "Supporting Files";
+			path = "../Supporting Files";
 			sourceTree = "<group>";
 		};
 		690F40A8232E78F900107379 /* Controller */ = {
@@ -97,15 +103,18 @@
 			children = (
 				690F40AB232E795900107379 /* ChatVC.swift */,
 				690F40AD232E796900107379 /* ChannelVC.swift */,
+				690F40B8232EC7D200107379 /* LoginVC.swift */,
 			);
-			path = Controller;
+			name = Controller;
+			path = ../Controller;
 			sourceTree = "<group>";
 		};
 		690F40A9232E790000107379 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = Model;
+			name = Model;
+			path = ../Model;
 			sourceTree = "<group>";
 		};
 		690F40AA232E790500107379 /* View */ = {
@@ -113,7 +122,17 @@
 			children = (
 				690F40B1232E90A400107379 /* GradientView.swift */,
 			);
-			path = View;
+			name = View;
+			path = ../View;
+			sourceTree = "<group>";
+		};
+		690F40B5232EC05A00107379 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				690F40B6232EC07B00107379 /* toLogin.swift */,
+			);
+			name = Utilities;
+			path = ../Utilities;
 			sourceTree = "<group>";
 		};
 		92026ADDC0187539CA17CB61 /* Frameworks */ = {
@@ -248,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690F40B7232EC07B00107379 /* toLogin.swift in Sources */,
 				690F40AE232E796900107379 /* ChannelVC.swift in Sources */,
+				690F40B9232EC7D200107379 /* LoginVC.swift in Sources */,
 				690F40AC232E795900107379 /* ChatVC.swift in Sources */,
 				690F40B2232E90A400107379 /* GradientView.swift in Sources */,
 				690F4092232E72DA00107379 /* AppDelegate.swift in Sources */,
