@@ -9,22 +9,14 @@
 import UIKit
 
 class ChatVC: UIViewController {
-
+    
+    @IBOutlet weak var menuBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        menuBtn.addTarget(self.revealViewController(), action: #selector(revealViewController().revealToggle(_:)), for: .touchUpInside)
+      self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer()) //ekranı anamenüde soldan sağa kaydırmaya yarayan kısım.
+        self.view.addGestureRecognizer(self.revealViewController().tapGestureRecognizer()) // chat ekranına tıklayınca buton kapanıyor.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
