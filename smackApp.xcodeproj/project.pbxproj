@@ -16,8 +16,9 @@
 		690F40AC232E795900107379 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40AB232E795900107379 /* ChatVC.swift */; };
 		690F40AE232E796900107379 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40AD232E796900107379 /* ChannelVC.swift */; };
 		690F40B2232E90A400107379 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40B1232E90A400107379 /* GradientView.swift */; };
-		690F40B7232EC07B00107379 /* toLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40B6232EC07B00107379 /* toLogin.swift */; };
+		690F40B7232EC07B00107379 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40B6232EC07B00107379 /* Constants.swift */; };
 		690F40B9232EC7D200107379 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690F40B8232EC7D200107379 /* LoginVC.swift */; };
+		69F879CE233242BA009FE99E /* CreateAccVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F879CD233242BA009FE99E /* CreateAccVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +37,9 @@
 		690F40AB232E795900107379 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		690F40AD232E796900107379 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		690F40B1232E90A400107379 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		690F40B6232EC07B00107379 /* toLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toLogin.swift; sourceTree = "<group>"; };
+		690F40B6232EC07B00107379 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		690F40B8232EC7D200107379 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		69F879CD233242BA009FE99E /* CreateAccVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				690F40AB232E795900107379 /* ChatVC.swift */,
 				690F40AD232E796900107379 /* ChannelVC.swift */,
 				690F40B8232EC7D200107379 /* LoginVC.swift */,
+				69F879CD233242BA009FE99E /* CreateAccVC.swift */,
 			);
 			name = Controller;
 			path = ../Controller;
@@ -129,7 +132,7 @@
 		690F40B5232EC05A00107379 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				690F40B6232EC07B00107379 /* toLogin.swift */,
+				690F40B6232EC07B00107379 /* Constants.swift */,
 			);
 			name = Utilities;
 			path = ../Utilities;
@@ -267,7 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				690F40B7232EC07B00107379 /* toLogin.swift in Sources */,
+				69F879CE233242BA009FE99E /* CreateAccVC.swift in Sources */,
+				690F40B7232EC07B00107379 /* Constants.swift in Sources */,
 				690F40AE232E796900107379 /* ChannelVC.swift in Sources */,
 				690F40B9232EC7D200107379 /* LoginVC.swift in Sources */,
 				690F40AC232E795900107379 /* ChatVC.swift in Sources */,

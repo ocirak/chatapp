@@ -14,11 +14,13 @@ class ChannelVC: UIViewController {
         super.viewDidLoad()
         
         self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
-    
+    //sağa kayar sekmeyi 60 pixel kalana kadar taşıyor.
     }
     
     @IBAction func LoginBtn(_ sender: Any) {
         performSegue(withIdentifier: TO_LOGIN, sender: nil)
     }
+    
+    @IBAction func prepareForUnwind(segue: UIStoryboardSegue){}
     
 }
